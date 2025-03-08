@@ -1,12 +1,12 @@
 import { View, Text } from '@tarojs/components';
 import './index.scss';
 
-const Index = () => {
+const Profile = () => {
   return (
     <View className="container">
-      <Text>🎉 欢迎来到 Taro 运动小程序！🚀</Text>
+      <Text>个人中心</Text>
     </View>
   );
 };
 
-export default Index;
+export default Profile;
